@@ -1,6 +1,33 @@
-# Angular Docker Boilerplate
+# Angular 4.0 Docker Boilerplate
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.1.
+
+## Install requirements
+```
+$ sudo npm install -g @angular/cli
+$ sudo apt-get install docker-ce
+```
+
+## Getting started
+```
+$ git clone https://github.com/jayamorin/angular-docker-boilerplate.git myapps
+$ cd myapps
+```
+
+## Build the docker image for production
+```
+$ docker build -t myapps:0.1 .
+```
+
+## Run the container
+```
+$ docker run -it -d -p 8080:80 myapps:0.1
+```
+The app will be available at `http://localhost:8080/`
+
+![](http://i.imgur.com/8U2vAsA.png)
 
 ## Development server
 
