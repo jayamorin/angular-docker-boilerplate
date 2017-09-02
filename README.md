@@ -12,6 +12,7 @@ $ sudo apt-get install docker-ce
 
 ## Getting started
 ```
+$ git clone https://github.com/jayamorin/angular-docker-boilerplate.git myapp
 $ ng new myapp
 $ cd myapp
 ```
