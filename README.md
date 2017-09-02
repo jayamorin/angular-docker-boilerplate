@@ -12,18 +12,18 @@ $ sudo apt-get install docker-ce
 
 ## Getting started
 ```
-$ git clone https://github.com/jayamorin/angular-docker-boilerplate.git myapps
-$ cd myapps
+$ ng new myapp
+$ cd myapp
 ```
 
 ## Build the docker image for production
 ```
-$ docker build -t myapps:0.1 .
+$ docker build -t myapp:0.1 .
 ```
 
 ## Run the container
 ```
-$ docker run -it -d -p 8080:80 myapps:0.1
+$ docker run -it -d -p 8080:80 myapp:0.1
 ```
 The app will be available at `http://localhost:8080/`
 
