@@ -7,8 +7,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Install requirements
 1. Install Node.js.
 ```
-curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
-sudo apt-get install nodejs
+$ curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+$ sudo apt-get install nodejs
 ```
 
 2. Install Angular CLI.
