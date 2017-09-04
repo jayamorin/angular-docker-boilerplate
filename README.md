@@ -5,8 +5,19 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.1.
 
 ## Install requirements
+1. Install Node.js.
+```
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+sudo apt-get install nodejs
+```
+
+2. Install Angular CLI.
 ```
 $ sudo npm install -g @angular/cli
+```
+
+3. Install Docker Community Edition.
+```
 $ sudo apt-get install docker-ce
 ```
 
