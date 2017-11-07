@@ -16,10 +16,7 @@ $ sudo apt-get install nodejs
 $ sudo npm install -g @angular/cli
 ```
 
-3. Install Docker Community Edition.
-```
-$ sudo apt-get install docker-ce
-```
+3. Install Docker Community Edition. Refer to [Docker CE for Ubuntu](https://store.docker.com/editions/community/docker-ce-server-ubuntu).
 
 ## Getting started
 ```
